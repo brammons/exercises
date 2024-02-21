@@ -1,0 +1,66 @@
+body{
+    margin: auto;
+    width: 60%;
+    padding-top: 200px;
+    background-color: #284f9f;
+    color: ghostwhite;
+    font-size: 64px;
+    font-family: monospace;
+}
+
+@font-face {
+    font-family: BNGamma;
+    src: url(fonts/BNGamma.otf);
+}
+
+h3{
+    color: #d6a337;
+    font-family: BNGamma;
+}
+
+a{
+    color: ghostwhite;
+    text-decoration-line: none;
+}
+
+a:hover{
+    color: #d6a337;
+}
+
+a:visited{
+    color: #d6a337;
+}
+
+li{
+    list-style: none;
+}
+
+@media only screen and (max-width: 1000px){
+    body{
+        width: 1000px;
+        margin: auto;
+    }
+    
+    .container{
+        padding-top: 0px;
+    }
+    figure.item{
+        width: 500px;
+        height: 500px;
+    }
+ }
+ 
+ @media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .container{
+        padding-top: 0px;
+    }
+    figure.item{
+        width: 600px;
+        height: 600px;
+    }
+ }
