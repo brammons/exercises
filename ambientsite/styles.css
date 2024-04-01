@@ -9,12 +9,18 @@ body{
 }
 
 .animation div{
-    width: 5%;
+    width: 10%;
     height: 100%;
-    border: 1px solid black;
     animation-name: colorfade;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+}
+
+.circle{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: purple;
 }
 
 .animation div:nth-child(1n) {
@@ -54,46 +60,6 @@ body{
 }
 
 .animation div:nth-child(10n) {
-    animation-delay: 6s;
-}
-
-.animation div:nth-child(11n) {
-    animation-delay: 2s;
-}
-
-.animation div:nth-child(12n) {
-    animation-delay: 3s;
-}
-
-.animation div:nth-child(13n) {
-    animation-delay: 4s;
-}
-
-.animation div:nth-child(14n) {
-    animation-delay: 5s;
-}
-
-.animation div:nth-child(15n) {
-    animation-delay: 6s;
-}
-
-.animation div:nth-child(16n) {
-    animation-delay: 2s;
-}
-
-.animation div:nth-child(17n) {
-    animation-delay: 3s;
-}
-
-.animation div:nth-child(18n) {
-    animation-delay: 4s;
-}
-
-.animation div:nth-child(19n) {
-    animation-delay: 5s;
-}
-
-.animation div:nth-child(20n) {
     animation-delay: 6s;
 }
 
